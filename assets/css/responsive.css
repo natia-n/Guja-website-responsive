@@ -1,0 +1,27 @@
+@media screen and (max-width: 1400px){
+    .container {
+        width: 1024px;
+    }
+
+    /* HEADEER  */
+
+    .main-header {
+        font-size: 0.9rem; /*20px dan rom chamovidet 18px ze  18/20=0.9, 0.9*16=14.4* magroma jobia davwrot rem-shi, 18/20=0.9rem araviswe ar iqneba damokidebuli */
+    }
+
+    .nav-container nav{
+        --gap: 15px;
+    }
+
+    .logo-container {
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    .container {
+        width: 768px;
+    }
+}
+
