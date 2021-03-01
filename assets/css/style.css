@@ -32,11 +32,13 @@ a{
     padding: 0;
 }
 
-.header-container{
+.intro-container{
     background-image: url(../images/header-background.png);
+    background-position: top center;
+    background-repeat: no-repeat; /*tu patara foto, gameordes*/
 }
 
-.header-container header{
+.intro-container header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,6 +109,46 @@ a{
     margin-left: var(--gap);
 }
 
+/* BURGER */
+
+.burger {
+    display: inline-block;
+}
+
+
+/* INTRO */
+.intro-content-container{
+    margin-top: 0.375em;
+    color: #fff;
+    text-align: center;
+}
+
+.intro-content-container h3{
+    font-size: 4em;   
+    font-weight: 600; 
+}
+
+.intro-content-container p{
+    font-size: 1.25em;
+    margin-top: 1.2em;
+}
+
+.intro-content-container .intro-buttons-container{
+    margin-top: 2.8125em;
+    display: flex; 
+    justify-content: center;
+    gap: 4.625em;
+}
+
+.intro-laptop-container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.intro-laptop-container img{
+    max-width: 100%;
+}
+
 /* BUTTONS */
 
 .btn {
@@ -117,7 +159,7 @@ a{
     border-radius: 0.5em;  
 
     font-family: var(--main-font);
-    font-size: 20px;
+    font-size: 1em;
     line-height: 1;
 
     color: #fff;

@@ -9,19 +9,85 @@
         font-size: 0.9rem; /*20px dan rom chamovidet 18px ze  18/20=0.9, 0.9*16=14.4* magroma jobia davwrot rem-shi, 18/20=0.9rem araviswe ar iqneba damokidebuli */
     }
 
-    .nav-container nav{
-        --gap: 15px;
-    }
-
     .logo-container {
         font-size: 0.9em;
     }
 
+    .nav-container nav{
+        --gap: 15px;
+    }
+
+    .intro-container {
+        background-size: 1600px;
+    }
 }
 
+/* sm => small */
 @media screen and (max-width: 1024px){
     .container {
         width: 768px;
     }
+
+    .intro-content-container {
+        font-size: 0.7em;
+    }
+
+    .intro-container {
+        background-size: 1300px;
+    }
+
 }
 
+/* xs => extra small */
+@media screen and (max-width: 767px){
+   .container {
+       width: 100%;
+   }
+
+   .intro-content-container h3 {
+        font-size: 2em;
+   }
+
+   .intro-content-container .intro-buttons-container{
+       gap: 3em;
+   }
+
+   .intro-container {
+       background-size: 1100px;
+   }
+}
+
+/* lg => large */
+@media screen and (min-width: 1920px){
+    .hidden-xl {
+        display: none !important;
+    }
+}
+
+/* lg => large */
+@media screen and (min-width: 1401px){
+    .hidden-lg {
+        display: none !important;
+    }
+}
+
+/* md => medium */
+@media screen and (max-width: 1400px) and (min-width: 1025px){
+    .hidden-md {
+        display: none !important;
+    }
+}
+
+/* sm => small */
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .hidden-sm {
+        display: none !important;
+    }
+}
+
+/* xs => extra small */
+@media screen and (max-width: 767px){
+    .hidden-xs {
+        display: none !important;
+    }
+}
